@@ -3,6 +3,14 @@
 An AI-powered web application that analyzes the sentiment of user-provided text using React, FastAPI, and the Cohere API.
 It classifies text as Positive, Neutral, or Negative with a confidence score.
 
+## 🔗 Live Demo
+
+- 🌐 Frontend (Web App):  
+  http://yokitha-sentiment-analyzer.s3-website.eu-north-1.amazonaws.com
+
+- ⚙️ Backend API:  
+  https://sentiment-analysis-app-h7ru.onrender.com
+
 ## 🚀 Features
 
 - 📝 Text input for reviews and comments
