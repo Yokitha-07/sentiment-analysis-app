@@ -25,11 +25,24 @@ app = FastAPI(title="Sentiment API (Cohere)")
 
 
 # CORS (for React)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=[
+#         "http://localhost:5173",  # Vite dev server
+#         "http://yokitha-sentiment-analyzer.s3-website.eu-north-1.amazonaws.com/",
+#     ],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
+
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",  # Vite dev server
-        "http://yokitha-sentiment-analyzer.s3-website.eu-north-1.amazonaws.com/",
+        "http://localhost:5173",
+        "http://yokitha-sentiment-analyzer.s3-website.eu-north-1.amazonaws.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
