@@ -7,6 +7,7 @@ It classifies text as Positive, Neutral, or Negative with a confidence score.
 
 <!-- - 🌐 Frontend (Web App): -->  
   http://yokitha-sentiment-analyzer.s3-website.eu-north-1.amazonaws.com
+  https://sentimentanalyzer-yokitha.netlify.app/
 
 <!-- - ⚙️ Backend API:  
   https://sentiment-analysis-app-h7ru.onrender.com -->
