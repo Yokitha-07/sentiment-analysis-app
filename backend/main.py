@@ -43,6 +43,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://yokitha-sentiment-analyzer.s3-website.eu-north-1.amazonaws.com",
+        "https://sentimentanalyzer-yokitha.netlify.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
